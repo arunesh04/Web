@@ -1,0 +1,13 @@
+{
+    "name": "Log Tracker",
+    "description":"This extension is used to track the time usage of every sites you have visited",
+    "version":"1.0",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"index.html" 
+    },
+    "icons": { "16": "/Source/icon_16.png",
+           "48": "/Source/icon_48.png",
+          "128": "/Source/icon_128.png" },
+    "permissions":["notifications","history"]
+}  
